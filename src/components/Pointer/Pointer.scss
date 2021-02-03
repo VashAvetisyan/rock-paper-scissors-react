@@ -1,0 +1,60 @@
+.app-pointer{
+    border: 3px solid #606e85;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+
+    &__title{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        text-transform: uppercase;
+        line-height: 2rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        
+      
+
+        span{
+            text-transform: uppercase;
+            font-weight: bold;
+            line-height: 2.5rem;
+            font-size: 2.5rem;
+            color: white;
+            letter-spacing: 1px;
+            text-align: center;
+            font-family: "Barlow Semi Condensed";
+        }
+    }
+
+    &__scorebox{
+        background-color: white;
+        padding: 20px 35px;
+        border-radius: 0.4rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-align: center;
+        font-family: "Barlow Semi Condensed";
+
+        &__title{
+           
+            color: #2a46c0;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        &__score{
+            color: #606e85;
+            font-size: 3rem;
+            font-weight: 700;
+            padding: 10px 0;
+        }
+    }
+
+}

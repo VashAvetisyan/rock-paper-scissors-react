@@ -1,0 +1,15 @@
+.app-layout{
+    display: flex;
+    &__main {
+        flex: 1;
+        background:#fff;
+        padding:20px 80px; 
+        background: radial-gradient(circle, #1f3756 0%, #141539 100%);
+
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        align-items: center;
+        padding: 0 20px;
+    }
+}
