@@ -1,15 +1,15 @@
-import React from 'react';
+import React from 'react'
 
-import './Layout.scss';
+import './Layout.scss'
 
-function Layout({ children }){
+const Layout = ({children}) => {
     return (
         <div className="app-layout">
-            <main className='app-layout__main'>
+            <main className="app-layout__main">
                 {children}
             </main>
         </div>
     )
 }
 
-export default Layout;
+export default Layout

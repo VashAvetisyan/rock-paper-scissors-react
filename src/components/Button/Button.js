@@ -2,10 +2,19 @@ import React from 'react'
 
 import './Button.scss'
 
-function Button({children ,className, dataIndex, onClick}){
+const Button = ({
+    Icon,
+    color,
+    boxShadow,
+    transform,
+    className,
+    onClick
+}) => {
     return (
-        <div className={`app-button ${className}`} data-index={dataIndex} onClick={onClick} >
-            {children}
+            <div className={`game-button ${className}`} style={{borderColor: color, boxShadow: boxShadow, transform:transform}} onClick={onClick}>
+            <div className="game-button__icon-container">
+                <Icon />
+            </div>
         </div>
     )
 }

@@ -1,14 +1,14 @@
 import './App.scss';
 
 import Layout from 'components/Layout/Layout';
-import Landing from 'containers/Landing/Landing';
+import Game from 'containers/Game/Game';
 
 function App() {
     return (
         <div className="App">
             <Layout>
-                <Landing />
-            </Layout>
+                <Game />
+            </Layout> 
         </div>
     );
 }
